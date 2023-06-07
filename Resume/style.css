@@ -1,5 +1,6 @@
-/* Main Style */
+/* Styles for my resume */
 
+/* Sets font for entire resume to Open Sans, with arial and sans-serif fonts as fallbacks */
 BODY {
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1em;
@@ -7,6 +8,7 @@ BODY {
     font-weight:400;
 }
 
+/* Banner name at top */
 h1 {
     font-size: 3em;
     color: #33485e;
@@ -14,12 +16,14 @@ h1 {
     text-transform: uppercase;
 }
 
+/* Occupation/title */
 strong {
     text-transform: uppercase;
     font-size: 1.5em;
     color: #33485e;
 }
 
+/* Section titles */
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -28,22 +32,26 @@ h2 {
     font-weight: 400;
 }
 
+/* Job titles */
 h3 {
     font-weight: 600;
     font-size: 1.5em;
 }
 
+/* Job organizations */
 h4 {
    font-weight: 400;
    font-size: 1.5em;
 }
 
+/* Job dates */
 h5 {
     font-weight: 400;
     font-style: italic;
     font-size: 1em;
 }
 
+/* List items (contact info, skills and education) */
 li {
     font-size: 1em;
 }
