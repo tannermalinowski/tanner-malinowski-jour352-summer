@@ -8,6 +8,13 @@ BODY {
     font-weight:400;
 }
 
+/* for container div */
+#container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 /* Banner name at top */
 #name {
     font-size: 3em;
@@ -20,15 +27,18 @@ BODY {
     margin: 0 auto;
 }
 
-/* Occupation/title */
-strong {
+/* Occupation/title -- changed to a div and added font weight, text align and top margin */
+#title {
     text-transform: uppercase;
     font-size: 1.5em;
     color: #33485e;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Section titles */
-#sectionheader {
+.sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
@@ -40,22 +50,23 @@ strong {
 }
 
 /* Job titles */
-h3 {
+.jobtitle {
     font-weight: 600;
     font-size: 1.5em;
 }
 
-/* Job organizations */
-h4 {
+/* Job organizations -- font size changes from 1.5em to 1.25em with switch to class div */
+.organization {
    font-weight: 400;
-   font-size: 1.5em;
+   font-size: 1.25em;
 }
 
-/* Job dates */
-h5 {
+/* Job dates -- set top margin to two px, left all other margins at zero px following switch to class div */
+.date {
     font-weight: 400;
     font-style: italic;
     font-size: 1em;
+    margin-top: 2px;
 }
 
 /* List items (contact info, skills and education) */
@@ -63,3 +74,33 @@ li {
     font-size: 1em;
 }
 
+/* added description class within all <p> tags; top/bottom margins set at 10px; side margins set to 0px */
+.description {
+    margin: 10px 0px;
+}
+
+.menu {
+    margin: 0px;
+    text-align: center;
+}
+      
+/* made list of contact information horizontal */
+.menu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#degrees {
+    margin-top: 5px;
+}
+
+#do {
+    margin-top: 5px;
+}
+
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
