@@ -1,0 +1,23 @@
+.col-md-6 {
+    text-align: center;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.col-md-4 i {
+    font-size: 3em;
+}
+
+h1, h2, h3, .navbar-brand, .btn.btn-dark {
+    font-family: 'Special Elite', cursive;
+}
+
+.col-md-6 .btn.btn-dark {
+    margin-top: 20px;
+}
+
+.row {
+    padding-bottom: 50px;
+}
