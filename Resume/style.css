@@ -104,3 +104,12 @@ li {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+.navbar-brand, .hello, .nav-link {
+    font-family: Helvetica;
+}
+
+.hello {
+    font-family: Helvetica, sans-serif;
+    color: grey;
+}

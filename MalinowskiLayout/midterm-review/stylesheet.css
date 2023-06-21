@@ -1,0 +1,54 @@
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#byline {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+blockquote {
+    font: 36px normalhelvetica, sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 4px solid #ccc;
+}
+
+#author {
+    font-size: 16px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.caption {
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#read-more {
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+#hyperlinks {
+    font-size: 16px;
+    text-align: center;
+}
