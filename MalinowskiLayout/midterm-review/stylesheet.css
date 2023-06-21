@@ -19,7 +19,7 @@ p {
     font-size: 13px;
 }
 
-blockquote {
+#blockquote {
     font: 36px normalhelvetica, sans-serif;
     font-style: italic;
     margin-top: 15px;
