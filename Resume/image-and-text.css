@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.section {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto
+}
+
+.section h1 {
+    color: white;
+    margin: 0;
+}
+
+.degree h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+.degree small {
+    font-style: italic;
+    color: gray;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.university h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.university small {
+    font-style: italic;
+    color: gray;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.section img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 10px;
+    border: 3px solid white;
+    padding-left: 30px;
+}

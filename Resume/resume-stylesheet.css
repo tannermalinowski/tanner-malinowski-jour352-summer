@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+#headshot {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-image: url(Headshot.JPG)
+}
+
+
+#hero-name {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    letter-spacing: -1.5px;
+    text-align: center; 
+    font-weight: bolder;
+}
+
+
+.gray-background {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    background-color: #272727;
+    margin: 50px;
+}
+
+.gray-background p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: lighter;
+}
+
+.section-header {
+    font-family:'Times-New-Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.job-title, .degree {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+
+
+.organization {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+
+.date {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+}
+
+.description {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.degree {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.school {
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.graduation {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+    color: grey;
+}
+
+.skill {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.program {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.skill-box {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 23px;
+}
+
+
+.company-section {
+    display: inline-block;
+    border-left: 3px solid white;
+    width: 65%;
+    padding-left: 50px;
+    margin: 0 auto;
+}
+
+
+.company-logo {
+    float: left;
+    width: 25%;
+    padding-left: 80px;
+    margin-right: 10px;
+}
+
+
+
+
+
+.education-text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 30px;
+    border-left: 3px solid white;
+}
+
+
+
+
+
+.college-logo {
+    float: left;
+    width: 25%;
+    margin-right: -20px;
+}
+
+
+
+.org-and-date div {
+    display: inline-block;
+}
+
+
+.school-and-grad div {
+    display: inline-block;
+}
+
+
+
+
+#skills-display {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.portfolio-images img {
+    width: 200px;
+    padding: 20px;
+}
+
+.portfolio-images {
+    display: inline-block;
+}
+
+.navbar-expand-lg a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
