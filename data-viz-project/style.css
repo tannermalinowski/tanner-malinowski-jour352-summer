@@ -1,0 +1,117 @@
+.headline {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.byline {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.date {
+    font-size; 0.8em;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.chapter-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+img, figcaption {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+figcaption {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    color: black;
+}
+
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25em;
+    line-height: 180%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.chapter-headline {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    font-family: 'Noticia Text', serif;
+    color: #0e2240;
+    font-style: bold;
+    border-top: 2px solid #0e2240;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+
+footer {
+    background-color: #EDEDED;
+}
+
+.footer-text p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25em;
+    line-height: 180%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.infographic {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+blockquote {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #0e2240;
+}
+    
