@@ -1,0 +1,973 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 33%;
+    background:rgba(13, 34, 64, 0.8);
+}
+
+
+.nav-logo {
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-dark {
+    background:rgba(13, 34, 64);
+}
+
+.stroke-text {
+    color: black;
+    -webkit-text-stroke: 0.75px white;
+}
+
+
+.headline {
+    font-size: 2.75em;
+    font-weight: 700;
+    font-family: 'Noticia Text', serif;
+    text-align: left;
+    right: 50%;
+    top: 10%;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 50px;
+}
+
+
+.subhead {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Noticia Text', serif;
+    text-align: left;
+    right: 50%;
+    top: 10%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+
+.byline {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Noticia Text', serif;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+.date {
+    font-size: 1.25em;
+    font-weight: 100;
+    font-family: 'Noticia Text', serif;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+
+img, figcaption {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+figcaption {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    color: black;
+}
+
+
+.hero-caption {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    color: black;
+    width: 90%;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+.hero-container {
+    position: relative;
+    color: white;
+}
+
+
+.hero-container img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.opening-section {
+    margin-bottom: 30px;
+}
+
+
+/* Body Text */
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25em;
+    line-height: 180%;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Bolded and styled text */
+.first-sentence::first-letter{
+    initial-letter: 2;
+    background-color: #0e2240;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+} 
+
+
+.bold-text {
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:#0e2240;
+}
+
+
+/* Pullquote */
+.pullquote {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #0e2240;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* Garnett words */
+.quote {
+    font-size: 3.5em;
+    font-weight: 500;
+    font-family: 'Noticia Text', serif;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+
+/* Garnett attribution */
+.quote-attribution {
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: 'Noticia Text', serif;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 20px;
+}
+/* End pullquote */
+
+
+/* Section headings */
+.chapter-headline h1 {
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Noticia Text', serif;
+    color: #0e2240;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 3em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.infographic {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: #0e2240;
+}
+
+
+.footer-text h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.footer-text h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footer-text a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+.friedell-credit {
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 400.1px) and (max-width: 600px) {
+ p {
+        width:100%;
+    }
+
+    .chapter-headline h1{
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    .pullquote {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .overlay {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+    }
+
+    .headline {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3em;
+        padding-top: 60px;
+    }
+
+    .subhead {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.0em;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .byline {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.85em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.85em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 600.1px) and (max-width: 700px) {
+    p {
+        width:100%;
+    }
+
+    .chapter-headline h1{
+        width: 100%;
+        font-size: 2.2em;
+    }
+
+    .pullquote {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .overlay {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+    }
+
+    .headline {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.25em;
+        padding-top: 20px;
+    }
+
+    .subhead {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.88em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.75em;
+        padding-top: 10px;
+    }
+
+    .date {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 0.75em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 700.1px) and (max-width: 786px) {
+    p {
+        width:100%;
+    }
+
+    .chapter-headline h1{
+        width: 100%;
+        font-size: 2.4em;
+    }
+
+    .pullquote {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 786.1px) and (max-width: 810px) {
+    p {
+        width:100%;
+    }
+
+    .chapter-headline h1{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .pullquote {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 82%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.15em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 810.1px) and (max-width: 900px) {
+    p {
+        width:100%;
+    }
+
+    .chapter-headline h1{
+        width: 100%;
+    }
+
+    .pullquote {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.6em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.25em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.1em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.1em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 900.1px) and (max-width: 995px) {
+    p {
+        width:80%;
+    }
+
+    .chapter-headline h1{
+        width: 80%;
+        font-size: 2.6em;
+    }
+
+    .pullquote {
+        width: 80%;
+    }
+
+    .quote {
+        width: 80%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 80%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.7em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.35em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.2em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 995.1px) and (max-width: 1150px) {
+    p {
+        width:80%;
+    }
+
+    .chapter-headline h1{
+        width: 80%;
+        font-size: 2.75em;
+    }
+
+    .pullquote {
+        width: 80%;
+    }
+
+    .quote {
+        width: 80%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 80%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.9em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.45em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 1150.1px) and (max-width: 1250px) {
+    p {
+        width:60%;
+    }
+
+    .chapter-headline h1{
+        width: 60%;
+        font-size: 2.5em;
+    }
+
+    .pullquote {
+        width: 60%;
+    }
+
+    .quote {
+        width: 60%;
+        font-size: 2.75em;
+    }
+
+    .quote-attribution {
+        width: 60%;
+        font-size: 1.25em;
+    }
+
+    .infographic {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 2.1em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.6em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+@media (min-width: 1250.1px) and (max-width: 1400px) {
+    p {
+        width:70%;
+    }
+
+    .chapter-headline h1{
+        width: 70%;
+        text-align: left;
+    }
+
+    .quote {
+        width: 70%;
+        font-size: 3.5em;
+    }
+
+    .quote-attribution {
+        width: 70%;
+        font-size: 1.5em;
+    }
+
+    .pullquote {
+        margin: 0 auto;
+        padding-bottom: 10px;
+        width: 70%;
+    }
+
+    .infographic {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .headline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 2.1em;
+        padding-top: 50px;
+    }
+
+    .subhead {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.6em;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+
+    .byline {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+        padding-top: 15px;
+    }
+
+    .date {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+    }
+
+    .hero-caption {
+        font-size: 1em;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    figcaption {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1em;
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
