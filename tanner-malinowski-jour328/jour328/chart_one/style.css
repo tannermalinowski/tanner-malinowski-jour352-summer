@@ -1,0 +1,17 @@
+.outbox {
+    text-align: center;
+}
+
+.chartContainer {
+    width:1000px;
+    display: inline-block;
+}
+
+.source{
+    font-family: helvetica, sans-serif;
+    font-size: .75em;
+    margin-top:10px;
+    margin-left: 100px;
+    font-style: italic;
+    text-align: left;
+}

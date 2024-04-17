@@ -1,0 +1,13 @@
+.chartContainer {
+    width:600px;
+    margin: 0 auto;
+}
+
+.sourcekey {
+    font-family: helvetica, sans-serif;
+    font-size: .75em;
+    margin-left:15px;
+    margin-top:10px;
+    font-style: italic;
+}
+
